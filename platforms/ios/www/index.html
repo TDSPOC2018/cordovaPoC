@@ -43,9 +43,15 @@
                 <p class="event received">Device is Ready</p>
             </div>
             <button id="camera">カメラ起動</button>
-            <button id="camera">ローカル通知</button>
+            <button id="checkStatus">指紋認証ーステータス確認</button>
+            <hr>名前を入れてね<input type="text" id="username" value="">
+            <br>パスワードを入れてね<input type="password" id="password" value="">
+            <button id="register">指紋認証ー登録する</button>
+            <button id="get">指紋認証ーパスワード取得</button>
+            <button id="delete">指紋認証ーパスワード削除</button>
         </div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/touchid.js"></script>
     </body>
 </html>

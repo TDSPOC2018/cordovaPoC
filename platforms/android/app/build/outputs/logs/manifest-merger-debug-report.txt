@@ -11,15 +11,15 @@ INJECTED from /Users/hikaru/Desktop/cordova/cordovaPoc/platforms/android/app/src
 	android:name
 		ADDED from /Users/hikaru/Desktop/cordova/cordovaPoc/platforms/android/app/src/main/AndroidManifest.xml:12:127-180
 manifest
-ADDED from /Users/hikaru/Desktop/cordova/cordovaPoc/platforms/android/app/src/main/AndroidManifest.xml:2:1-19:12
-INJECTED from /Users/hikaru/Desktop/cordova/cordovaPoc/platforms/android/app/src/main/AndroidManifest.xml:2:1-19:12
-INJECTED from /Users/hikaru/Desktop/cordova/cordovaPoc/platforms/android/app/src/main/AndroidManifest.xml:2:1-19:12
-INJECTED from /Users/hikaru/Desktop/cordova/cordovaPoc/platforms/android/app/src/main/AndroidManifest.xml:2:1-19:12
+ADDED from /Users/hikaru/Desktop/cordova/cordovaPoc/platforms/android/app/src/main/AndroidManifest.xml:2:1-20:12
+INJECTED from /Users/hikaru/Desktop/cordova/cordovaPoc/platforms/android/app/src/main/AndroidManifest.xml:2:1-20:12
+INJECTED from /Users/hikaru/Desktop/cordova/cordovaPoc/platforms/android/app/src/main/AndroidManifest.xml:2:1-20:12
+INJECTED from /Users/hikaru/Desktop/cordova/cordovaPoc/platforms/android/app/src/main/AndroidManifest.xml:2:1-20:12
 MERGED from [com.android.support:support-v4:24.1.1] /Users/hikaru/.gradle/caches/transforms-1/files-1.1/support-v4-24.1.1.aar/2a08f2a9a9b58108a8bdb4e7e52458c4/AndroidManifest.xml:17:1-27:12
 MERGED from [:CordovaLib] /Users/hikaru/Desktop/cordova/cordovaPoc/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:20:1-27:12
-INJECTED from /Users/hikaru/Desktop/cordova/cordovaPoc/platforms/android/app/src/main/AndroidManifest.xml:2:1-19:12
-INJECTED from /Users/hikaru/Desktop/cordova/cordovaPoc/platforms/android/app/src/main/AndroidManifest.xml:2:1-19:12
-INJECTED from /Users/hikaru/Desktop/cordova/cordovaPoc/platforms/android/app/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/hikaru/Desktop/cordova/cordovaPoc/platforms/android/app/src/main/AndroidManifest.xml:2:1-20:12
+INJECTED from /Users/hikaru/Desktop/cordova/cordovaPoc/platforms/android/app/src/main/AndroidManifest.xml:2:1-20:12
+INJECTED from /Users/hikaru/Desktop/cordova/cordovaPoc/platforms/android/app/src/main/AndroidManifest.xml:2:1-20:12
 	package
 		ADDED from /Users/hikaru/Desktop/cordova/cordovaPoc/platforms/android/app/src/main/AndroidManifest.xml:2:102-135
 		INJECTED from /Users/hikaru/Desktop/cordova/cordovaPoc/platforms/android/app/src/main/AndroidManifest.xml
@@ -116,6 +116,10 @@ uses-permission#android.permission.USE_FINGERPRINT
 ADDED from /Users/hikaru/Desktop/cordova/cordovaPoc/platforms/android/app/src/main/AndroidManifest.xml:18:5-74
 	android:name
 		ADDED from /Users/hikaru/Desktop/cordova/cordovaPoc/platforms/android/app/src/main/AndroidManifest.xml:18:22-71
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/hikaru/Desktop/cordova/cordovaPoc/platforms/android/app/src/main/AndroidManifest.xml:19:5-71
+	android:name
+		ADDED from /Users/hikaru/Desktop/cordova/cordovaPoc/platforms/android/app/src/main/AndroidManifest.xml:19:22-68
 meta-data#android.support.FILE_PROVIDER_PATHS
 ADDED from /Users/hikaru/Desktop/cordova/cordovaPoc/platforms/android/app/src/main/AndroidManifest.xml:13:13-123
 	android:resource

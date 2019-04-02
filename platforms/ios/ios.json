@@ -19,6 +19,30 @@
             {
               "xml": "<feature name=\"TouchID\"><param name=\"ios-package\" value=\"TouchID\" /></feature>",
               "count": 1
+            },
+            {
+              "xml": "<feature name=\"SpeechRecognition\"><param name=\"ios-package\" value=\"SpeechRecognition\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"Device\"><param name=\"ios-package\" value=\"CDVDevice\" /></feature>",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "*-Info.plist": {
+        "parents": {
+          "NSMicrophoneUsageDescription": [
+            {
+              "xml": "<string>Request to use Microphone</string>",
+              "count": 1
+            }
+          ],
+          "NSSpeechRecognitionUsageDescription": [
+            {
+              "xml": "<string>Request to use Speech Recognition</string>",
+              "count": 1
             }
           ]
         }
@@ -33,6 +57,12 @@
       "PACKAGE_NAME": "io.cordova.hellocordova"
     },
     "cordova-plugin-keychain-touch-id": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "cordova-plugin-speechrecognition": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "cordova-plugin-device": {
       "PACKAGE_NAME": "io.cordova.hellocordova"
     }
   },
@@ -77,11 +107,29 @@
       "clobbers": [
         "window.plugins.touchid"
       ]
+    },
+    {
+      "id": "cordova-plugin-speechrecognition.SpeechRecognition",
+      "file": "plugins/cordova-plugin-speechrecognition/www/speechRecognition.js",
+      "pluginId": "cordova-plugin-speechrecognition",
+      "merges": [
+        "window.plugins.speechRecognition"
+      ]
+    },
+    {
+      "id": "cordova-plugin-device.device",
+      "file": "plugins/cordova-plugin-device/www/device.js",
+      "pluginId": "cordova-plugin-device",
+      "clobbers": [
+        "device"
+      ]
     }
   ],
   "plugin_metadata": {
     "cordova-plugin-whitelist": "1.3.3",
     "cordova-plugin-camera": "4.0.3",
-    "cordova-plugin-keychain-touch-id": "3.3.0"
+    "cordova-plugin-keychain-touch-id": "3.3.0",
+    "cordova-plugin-speechrecognition": "1.2.0",
+    "cordova-plugin-device": "2.0.3-dev"
   }
 }

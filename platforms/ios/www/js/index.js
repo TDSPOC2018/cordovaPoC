@@ -32,6 +32,19 @@ var app = {
         //カメラ起動
         var button = document.getElementById("camera");
         button.addEventListener("click",show_pic);
+
+        //指紋のチェック
+        var button = document.getElementById("checkStatus");
+        button.addEventListener("click",touch_Check);
+        //指紋の保存
+        var button = document.getElementById("register");
+        button.addEventListener("click",touch_Register);
+        //指紋の取得
+        var button = document.getElementById("get");
+        button.addEventListener("click",touch_Get);
+        //指紋の削除
+        var button = document.getElementById("delete");
+        button.addEventListener("click",touch_Delete);
     },
 
     // Update DOM on a Received Event
@@ -71,4 +84,55 @@ function show_pic() {
 
 function test(){
     alert("hellow");
+}
+
+function touch_Check(){
+    window.plugins.touchid.isAvailable(function(result) {
+        alert("指紋があります");
+      }, err => {
+        alert("指紋がありません");
+      });
+}
+
+//保存・取得・削除キー
+const myKey = 'jiojfoj77574Tehjfaljgf';
+
+function touch_Register(){
+    const username = document.getElementById('username').value;
+    const password = document.getElementById('password').value;
+    alert(username);
+    alert(password);
+    //保存処理->splitできるように値を入れて保存
+    window.plugins.touchid.save(myKey, username + " " + password, () => {
+        //成功してもエラーコードが返るため、エラーコードにて分岐
+    }, err => {
+        const errcode = JSON.stringify(err);
+        if(errcode=='"success"'){
+            alert("保存成功しました->code"+ JSON.stringify(err))
+        }
+        else{
+            alert("保存失敗しました->code"+ JSON.stringify(err))
+        }
+    });
+}
+function touch_Get(){
+    const message = '指紋認証を行います';
+    //取得処理
+    window.plugins.touchid.verify(myKey, message, (str) => {
+        //値をSplitして取得->これをサーバに投げてログインできる
+        const username = str.split(' ')[0];
+        const password = str.split(' ')[1];
+        alert("ユーザ名は" + username + " パスワードは" + password + "です");
+      }, err => {
+        alert("取得失敗しました->code"+ JSON.stringify(err))
+      });
+} 
+
+function touch_Delete(){
+    //削除処理
+    window.plugins.touchid.delete(myKey, () => {
+        alert("パスワード削除完了"); 
+      }, err => {
+        alert("パスワード削除失敗->code" + JSON.stringify(err))
+      });
 }

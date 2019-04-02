@@ -22,5 +22,21 @@
     },
     "is_top_level": true,
     "variables": {}
+  },
+  "cordova-plugin-speechrecognition": {
+    "source": {
+      "type": "registry",
+      "id": "https://github.com/pbakondy/cordova-plugin-speechrecognition"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-device": {
+    "source": {
+      "type": "registry",
+      "id": "https://github.com/apache/cordova-plugin-device"
+    },
+    "is_top_level": true,
+    "variables": {}
   }
 }

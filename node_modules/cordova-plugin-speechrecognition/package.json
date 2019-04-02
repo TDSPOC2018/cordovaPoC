@@ -1,0 +1,61 @@
+{
+  "_from": "git+https://github.com/pbakondy/cordova-plugin-speechrecognition.git",
+  "_id": "cordova-plugin-speechrecognition@1.2.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/cordova-plugin-speechrecognition",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/pbakondy/cordova-plugin-speechrecognition",
+    "rawSpec": "https://github.com/pbakondy/cordova-plugin-speechrecognition",
+    "saveSpec": "git+https://github.com/pbakondy/cordova-plugin-speechrecognition.git",
+    "fetchSpec": "https://github.com/pbakondy/cordova-plugin-speechrecognition.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/pbakondy/cordova-plugin-speechrecognition.git#f998b16cb48ecb0f0d024bd0f3049ad6d105fb5c",
+  "_spec": "https://github.com/pbakondy/cordova-plugin-speechrecognition",
+  "_where": "/Users/hikaru/Desktop/cordova/cordovaPoc",
+  "author": {
+    "name": "Peter Bakondy"
+  },
+  "bugs": {
+    "url": "https://github.com/pbakondy/cordova-plugin-speechrecognition/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-speechrecognition",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova Plugin for Speech Recognition",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "homepage": "https://github.com/pbakondy/cordova-plugin-speechrecognition#readme",
+  "keywords": [
+    "cordova",
+    "speech",
+    "recognition",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-speechrecognition",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pbakondy/cordova-plugin-speechrecognition.git"
+  },
+  "version": "1.2.0"
+}
