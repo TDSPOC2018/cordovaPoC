@@ -1,0 +1,48 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/hikaru/Desktop/cordova/cordovaPoc/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es/values-es.xml",
+            "map": [
+                {
+                    "source": "/Users/hikaru/Desktop/cordova/cordovaPoc/platforms/android/app/src/main/res/values-es/fpauth-strings.xml",
+                    "from": {
+                        "startLines": "17,19,21,22,23,24,25,20,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "691,786,921,1016,1075,1184,1262,879,735",
+                        "endColumns": "43,92,94,58,108,77,160,41,50",
+                        "endOffsets": "730,874,1011,1070,1179,1257,1418,916,781"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,99,192,287,346,455,533,694,736",
+                        "endColumns": "43,92,94,58,108,77,160,41,50",
+                        "endOffsets": "94,187,282,341,450,528,689,731,782"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/hikaru/Desktop/cordova/helloworld/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es/values-es.xml",
+            "map": [
+                {
+                    "source": "/Users/hikaru/Desktop/cordova/helloworld/platforms/android/app/src/main/res/values-es/fpauth-strings.xml",
+                    "from": {
+                        "startLines": "17,19,21,22,23,24,25,20,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "691,786,921,1016,1075,1184,1262,879,735",
+                        "endColumns": "43,92,94,58,108,77,160,41,50",
+                        "endOffsets": "730,874,1011,1070,1179,1257,1418,916,781"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,99,192,287,346,455,533,694,736",
+                        "endColumns": "43,92,94,58,108,77,160,41,50",
+                        "endOffsets": "94,187,282,341,450,528,689,731,782"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+  "_from": "git+https://github.com/sjhoeksma/cordova-plugin-keychain-touch-id.git",
+  "_id": "cordova-plugin-keychain-touch-id@3.3.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/cordova-plugin-keychain-touch-id",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/sjhoeksma/cordova-plugin-keychain-touch-id",
+    "rawSpec": "https://github.com/sjhoeksma/cordova-plugin-keychain-touch-id",
+    "saveSpec": "git+https://github.com/sjhoeksma/cordova-plugin-keychain-touch-id.git",
+    "fetchSpec": "https://github.com/sjhoeksma/cordova-plugin-keychain-touch-id.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/sjhoeksma/cordova-plugin-keychain-touch-id.git#7ea014f72679403c4e74acb1cc07b524cf085663",
+  "_spec": "https://github.com/sjhoeksma/cordova-plugin-keychain-touch-id",
+  "_where": "/Users/hikaru/Desktop/cordova/helloworld",
+  "author": {
+    "name": "S.J.Hoeksma"
+  },
+  "bugs": {
+    "url": "https://github.com/sjhoeksma/cordova-plugin-keychain-touch-id/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-keychain-touch-id",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Scan the fingerprint of your user with the TouchID sensor (iPhone 5S, iPhone 6(S), ..) and control a key in the Keychain",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "homepage": "https://github.com/sjhoeksma/cordova-plugin-keychain-touch-id#readme",
+  "keywords": [
+    "TouchID",
+    "Touch ID",
+    "Fingerprint",
+    "Biometric",
+    "Scanner",
+    "KeyChain",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "name": "cordova-plugin-keychain-touch-id",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjhoeksma/cordova-plugin-keychain-touch-id.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "3.3.0"
+}
